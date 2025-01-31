@@ -1,0 +1,97 @@
+.home{
+    background-image: url(/media/Ralph-Consultorio-128-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner{
+    width: 50%;
+    height: auto;
+    margin: 0% 10% 0% 5%;
+    padding: 12% 0% 20% 0%;
+}
+
+#botao-agendar{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 1% 1.5%;
+    border-color: green;
+    border-radius: 15px;
+    transition: 0.5s;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 10% 0% 0% 25%;
+}
+
+#botao-agendar:hover{
+    text-decoration: none;
+    padding: 22px 52px;
+    transition: 0.5s;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: calc(10*50);
+}
+
+.itens-menu{
+    text-decoration: none;
+    color: green;
+    text-decoration: wavy;
+    border: 2px solid green;
+    padding: 1% 1.5%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.itens-menu:hover{
+    text-decoration: none;
+    background-color: green;
+    color: black;
+    transition: 0.5s;
+}
+
+.itens-menu:visited{
+    text-decoration: none;
+}
+
+#item-especial{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 1% 1.5%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#item-especial:hover{
+    text-decoration: none;
+    padding: 20px 35px;
+    transition: 0.5s;
+}
+
+#item-especial:visited{
+    text-decoration: none;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+#consultoorio {
+    width: 16%;
+    height: auto;
+}
