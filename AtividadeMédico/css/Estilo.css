@@ -1,5 +1,5 @@
 .home{
-    background-image: url(/media/Ralph-Consultorio-128-scaled.jpg);
+    background-image: url(/AtividadeMédico/media/Ralph-Consultorio-128-scaled.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -29,6 +29,7 @@
     text-decoration: none;
     padding: 22px 52px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .cabecalho{
@@ -92,6 +93,11 @@
 }
 
 #consultoorio {
-    width: 16%;
+    width: 15%;
+    height: auto;
+}
+
+#logo{
+    width: 100%;
     height: auto;
 }
